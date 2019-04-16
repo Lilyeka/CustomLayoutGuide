@@ -3,12 +3,7 @@ Suppose I have four views that are to remain equally distributed vertically. I c
 
 ![Equal Destribution](https://github.com/Lilyeka/CustomLayoutGuide/blob/master/CustomLayoutGuide/EqualDestribution.png "Equal Destribution")
 
-To solve the problem, I introduce three UILayoutGuide objects between my real views. A custom UILayoutGuide object is added to a UIView, so I’ll add mine to the superview of my four real views:
-
-let guides = [UILayoutGuide(), UILayoutGuide(), UILayoutGuide()]
-for guide in guides {
-    self.view.addLayoutGuide(guide)
-}
+To solve the problem, I introduce three UILayoutGuide objects between my real views. A custom UILayoutGuide object is added to a UIView, so I’ll add mine to the superview of my four real views.
 
 I then involve my three layout guides in the layout.
 

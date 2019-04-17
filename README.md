@@ -14,4 +14,4 @@ Suppose I have four views that are to remain equally distributed vertically. I c
 constrainWithUIStackView() 
 I use a UIStackView instead, and let the UIStackView generate all of that code for me. Another nice feature of UIStackView is that it responds intelligently to changes. For example, having configured things with the preceding code, if we were subsequently to make one of our arranged subviews invisible (by setting its isHidden to true), the stack view would respond by distributing the remaining subviews evenly, as if the hidden subview didn’t exist. 
 
-Play with that functions, comment one and uncomment another one, and you will see the result will be the same. 
+Play with that functions, comment one and uncomment another one, and you will see the result will basicly the same. 

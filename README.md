@@ -4,7 +4,7 @@ Suppose I have four views that are to remain equally distributed vertically. I c
 ![Equal Destribution](https://github.com/Lilyeka/CustomLayoutGuide/blob/master/CustomLayoutGuide/EqualDestribution.png "Equal Destribution")
 
 
- In this code I use two alternative functions: 
+ In this code I've used two alternative functions: 
  
  constrainWithUILayoutGuide()
  To solve the problem, I introduce three UILayoutGuide objects between my real views. A custom UILayoutGuide object is added to a UIView, so I’ll add mine to the superview of my four real views. I then involve my three layout guides in the layout.(In that code, I clearly could generate each group of constraints as a loop, thus making this approach suitable for any number of distributed views; but I have deliberately unrolled those loops for the sake of the example.)
